@@ -1,6 +1,11 @@
+
+
+//typewriter effect
+
+
 const text = "Explore AI's possibilities at AI INLINK! Stay updated on the latest AI tools here. Connect and innovate with us!";
 let index = 0;
-const speed = 50; // Speed of the animation in milliseconds
+const speed = 50;
 
 function typeWriter() {
     if (index < text.length) {
@@ -10,6 +15,8 @@ function typeWriter() {
     }
 }
 
+
+//the line effect
 function initCanvas() {
     var canvas, ctx, tim, mox, moy, isma;
     canvas = document.getElementsByTagName('canvas')[0];
@@ -57,7 +64,7 @@ function initCanvas() {
 
     function main() {
         tim = new Date().getTime() / 400;
-        ctx.clearRect(0, 0, canvas.width, canvas.height); // 清除画布
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
         motion();
         requestAnimationFrame(main);
     }
@@ -66,12 +73,12 @@ function initCanvas() {
         var a, b, c, d, e, r, p, x, y, x1, y1, len, tx, ty, han, han2, ste, s;
         ctx.globalCompositeOperation = "lighter";
 
-        // 创建渐变
-        var gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
-        gradient.addColorStop(0, 'rgba(128, 0, 128, 0.1)'); // 紫色
-        gradient.addColorStop(0.5, 'rgba(0, 255, 0, 0.1)'); // 绿色
 
-        gradient.addColorStop(1, 'rgba(0, 0, 255, 0.1)'); // 蓝色
+        var gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
+        gradient.addColorStop(0, 'rgba(128, 0, 128, 0.1)');
+        gradient.addColorStop(0.5, 'rgba(0, 255, 0, 0.1)');
+
+        gradient.addColorStop(1, 'rgba(0, 0, 255, 0.1)');
         ctx.fillStyle = gradient;
 
         a = tim / 71;
