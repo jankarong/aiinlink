@@ -16,7 +16,7 @@ function typeWriter() {
 }
 
 
-//the line effect
+//the line effect from code pen
 function initCanvas() {
     var canvas, ctx, tim, mox, moy, isma;
     canvas = document.getElementsByTagName('canvas')[0];
