@@ -17,6 +17,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
 </head>
 
 <body>
@@ -34,18 +36,18 @@
             </h1>
             <br>
         </div>
-        <div class="icon-container">
 
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon">
-                <path
-                    d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" />
-            </svg>
-
-
+        <div class="filter-buttons">
+            <button class="filter-button" data-filter="*">Show All</button>
+            <button class="filter-button" data-filter=".video">Video</button>
+            <button class="filter-button" data-filter=".search">Search Engine</button>
         </div>
 
+
+
+
         <div class="gallery-container">
-            <figure>
+            <figure class="video">
                 <img src="./img/pika.jpg" alt="pika" />
                 <h2>Pika-Creating Video</h2>
                 <figcaption>
@@ -197,12 +199,9 @@
     <script src="script.js"></script>
 
     <script src="./mffect.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
-    <script>var options = {
-            valueNames: ['name', 'born']
-        };
 
-        var userList = new List('users', options);</script>
+    <script src="./sort.js"></script>
+
 
 
 </body>

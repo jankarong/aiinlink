@@ -20,6 +20,8 @@ canvas {
     background: transparent;
 }
 
+
+
 body {
     font-family: 'Poppins', sans-serif;
     background-color: rgb(255, 255, 255);
@@ -147,7 +149,13 @@ img {
     column-gap: 1.25rem;
     width: 100%;
 
+
 }
+
+
+
+
+
 
 .music {
     color: #4E4FEB;
@@ -225,12 +233,9 @@ figure:hover i {
     box-sizing: border-box;
 }
 
-canvas {
-    background-color: #FFFFFF;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
+
+
+
 
 
 @media (max-width: 768px) {
