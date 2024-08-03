@@ -74,6 +74,43 @@
         flex-direction: row;
         justify-content: center;
     }
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+    }
+
+    .pricing-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing-card {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .pricing-card.featured {
+        transform: none;
+    }
+
+    .cta {
+        padding: 40px 15px;
+    }
+
+    .cta-form {
+        flex-direction: column;
+    }
+
+    .cta-form input[type="email"],
+    .cta-button {
+        width: 100%;
+    }
+
+
 }
 
 @media (max-width: 480px) {
@@ -180,4 +217,75 @@
         margin: 8px 0;
 
     }
+
+    .hero {
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-description {
+        font-size: 0.9rem;
+        max-width: 100%;
+    }
+
+    .video-container {
+        max-width: 100%;
+    }
+
+    .hero-form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .hero-form input[type="email"] {
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .hero-form .btn {
+        border-radius: 5px;
+        width: 100%;
+    }
+
+    .pricing-title {
+        font-size: 2rem;
+    }
+
+    .pricing-card h3 {
+        font-size: 1.5rem;
+    }
+
+    .pricing-price {
+        font-size: 1.8rem;
+    }
+
+    .cta {
+        padding: 30px 10px;
+    }
+
+    .cta-content {
+        max-width: 100%;
+    }
+
+    .cta-title {
+        margin-bottom: 15px;
+    }
+
+    .cta-form {
+        gap: 8px;
+    }
+
+    .cta-form input[type="email"],
+    .cta-button {
+        padding: 8px 12px;
+    }
+
+    .footer {
+        padding: 15px 10px;
+    }
+
 }

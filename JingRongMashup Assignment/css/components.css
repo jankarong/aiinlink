@@ -84,3 +84,47 @@ figure:hover i {
 #playButton {
     cursor: pointer;
 }
+
+.hero-form input[type="email"] {
+    flex-grow: 1;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+    background-color: var(--input-bg-color, #f0f0f0);
+    color: var(--input-text-color, #333);
+}
+
+.hero-form .btn {
+    border-radius: 0 5px 5px 0;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: var(--primary-btn-color, #a3e635);
+    color: var(--primary-btn-text-color, #000);
+}
+
+.btn.primary {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn.primary:hover {
+    background-color: var(--primary-hover-color, var(--primary-color));
+}
+
+.faq-item.active .faq-question {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+}
+
+.faq-item.active .faq-icon {
+    transform: rotate(45deg);
+}

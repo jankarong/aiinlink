@@ -41,3 +41,68 @@ a {
     font-weight: bold;
     white-space: pre-wrap;
 }
+
+.hero {
+    color: var(--text-color);
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 5rem;
+}
+
+.hero-description {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.pricing-title {
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.pricing-subtitle {
+    color: var(--secondary-text-color, var(--text-color));
+    margin-bottom: 15px;
+}
+
+.pricing-price {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.pricing-features,
+.pricing-key-features {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.pricing-features li,
+.pricing-key-features li {
+    margin-bottom: 10px;
+}
+
+.faq-title {
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 40px;
+    background: linear-gradient(45deg, #3a3af0, #9370DB, #20B2AA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.faq-question {
+    color: var(--text-color);
+}
+
+.faq-answer p {
+    color: var(--text-color);
+}
+
+.faq-icon {
+    transition: transform 0.3s ease;
+}

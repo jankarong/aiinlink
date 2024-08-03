@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profolio</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=swap" rel="stylesheet">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="nav-logo">
+                <img src="../img/logoWithWord.svg" alt="logoWithWord">
+            </a>
+
+            <ul class="navbar-menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pages/prices.html">Pricing</a></li>
+                <li><a href="#services">Services</a></li>
+
+            </ul>
+
+            <div class="navbar-social">
+                <a href="#" aria-label="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+
+            <button class="theme-toggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+
+
+            <button class="navbar-toggle" aria-label="Toggle menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+    </nav>
+
+
+
+    <section class="hero">
+        <h1 class="hero-title">What will you ship?</h1>
+        <div class="video-container">
+            <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/eeeH5Ea8PRc?si=gF4BFWmlyeBcuJ-o&autoplay=1&mute=1&controls=0&loop=1&playlist=eeeH5Ea8PRc"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+            </iframe>
+        </div>
+        <p class="hero-description">AI INLINK provides the developer experience and infrastructure to build, scale, and
+            secure a
+            faster, more personalized Web.</p>
+        <form class="hero-form">
+            <input type="email" placeholder="What's your work email?" required>
+            <button type="submit" class="btn primary">Get started</button>
+        </form>
+    </section>
+
+    <section class="pricing">
+        <h2 class="pricing-title">Choose the plan that fits your needs.</h2>
+        <div class="pricing-cards">
+            <div class="pricing-card">
+                <h3>Starter</h3>
+                <p class="pricing-subtitle">Quick video messages</p>
+                <p class="pricing-price">Free</p>
+                <button class="btn primary">Sign Up, It's Free</button>
+                <ul class="pricing-features">
+                    <li>Up to 50 Creators Lite</li>
+                    <li>Up to 25 videos/person</li>
+                    <li>Up to 5 mins/video</li>
+                </ul>
+                <h4>Key Features</h4>
+                <ul class="pricing-key-features">
+                    <li>Screen recording & cam bubble</li>
+                    <li>Viewer insights</li>
+                    <li>Instant editing</li>
+                    <li>Team Workspace</li>
+                    <li>Privacy controls</li>
+                </ul>
+            </div>
+            <div class="pricing-card featured">
+                <h3>Business</h3>
+                <p class="pricing-subtitle">Advanced recording & analytics</p>
+                <p class="pricing-price">$8.00 <span>USD/Creator/mo</span></p>
+                <button class="btn primary">Start Free 14-Day Trial</button>
+                <ul class="pricing-features">
+                    <li>Unlimited Creators</li>
+                    <li>Unlimited videos</li>
+                    <li>Unlimited recording length</li>
+                    <li>Up to 50 Creators Lite</li>
+                </ul>
+                <p>Everything in Starter, plus</p>
+                <ul class="pricing-key-features">
+                    <li>Transcriptions & closed captions</li>
+                    <li>Filler word removal</li>
+                    <li>Custom branding</li>
+                    <li>Engagement insights</li>
+                    <li>Embed links in video</li>
+                </ul>
+            </div>
+            <div class="pricing-card">
+                <h3>Enterprise</h3>
+                <p class="pricing-subtitle">Advanced admin & security</p>
+                <p class="pricing-price">Let's Talk</p>
+                <button class="btn primary">Contact Sales</button>
+                <ul class="pricing-features">
+                    <li>Unlimited Members</li>
+                    <li>Unlimited videos</li>
+                    <li>Unlimited recording length</li>
+                </ul>
+                <p>Everything in Business, plus</p>
+                <ul class="pricing-key-features">
+                    <li>SSO (SAML) and SCIM (Okta)</li>
+                    <li>Advanced content privacy</li>
+                    <li>Custom data retention policies</li>
+                    <li>Activity log export</li>
+                    <li>Salesforce integration</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="faq">
+        <h2 class="faq-title">We Have Answers</h2>
+        <div class="faq-list">
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    What is the difference between the Free and Paid versions?
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer" hidden>
+                    <p>The main differences include feature availability, usage limits, and support levels. Paid
+                        versions
+                        often offer advanced features, higher usage limits, and priority support.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    What email systems (ESPs) does Postcards work with?
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer" hidden>
+                    <p>Postcards is compatible with most major email service providers (ESPs) including MailChimp,
+                        SendGrid,
+                        Campaign Monitor, and many others. It can also work with custom SMTP servers.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    Do you plan on adding more blocks to the Postcards Generator?
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer" hidden>
+                    <p>Yes, we are constantly working on expanding our library of blocks. We regularly release new
+                        blocks
+                        based on user feedback and emerging design trends.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    Are there any limits to the number of exported emails from Postcards?
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer" hidden>
+                    <p>Export limits vary depending on your plan. Free users have a monthly export limit, while paid
+                        plans
+                        offer higher or unlimited exports. Check your plan details for specific limits.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question" aria-expanded="false">
+                    Do you provide any support?
+                    <span class="faq-icon">+</span>
+                </button>
+                <div class="faq-answer" hidden>
+                    <p>Yes, we provide support through various channels. Free users have access to our knowledge base
+                        and
+                        community forums. Paid users get additional email support, with higher tier plans offering
+                        priority
+                        support and dedicated account managers.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="cta-content">
+            <h2 class="cta-title">Join the waitlist</h2>
+            <form class="cta-form" onsubmit="return validateEmail()">
+                <input type="email" id="email" name="email" placeholder="Become an insider" required>
+                <button type="submit" class="cta-button">Sign up</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="copyright">&copy; 2024 Your Company Name. All rights reserved.</p>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="../js/toggle.js"></script>
+    <script src="../js/FAQ.js"></script>
+
+
+
+</body>
+
+
+</html>
