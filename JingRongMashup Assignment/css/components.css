@@ -1,0 +1,86 @@
+canvas {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60%;
+    z-index: -100;
+    background: transparent;
+}
+
+img {
+    width: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+figure {
+    margin: 0 0 20px;
+    break-inside: avoid;
+    border-radius: 20px;
+    border: 5px solid transparent;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+figure::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 5px solid transparent;
+    border-image: linear-gradient(var(--rotate, 132deg), #5ddcff, #3c67e3 43%, #4e00c2) 1;
+    border-radius: 20px;
+    transition: border-image 0.5s;
+}
+
+figure:hover::before {
+    border-image: linear-gradient(var(--rotate, 132deg), #02fb41, #3c67e3 43%, #6e2ecc) 1;
+    border-radius: 20px;
+    background-color: #000000;
+    z-index: -100;
+}
+
+figure:hover h2,
+figure:hover p,
+figure:hover figcaption {
+    color: white;
+}
+
+figure:hover h3,
+figure:hover .icon,
+figure:hover i {
+    color: rgb(34, 255, 0);
+}
+
+.fa-circle-play,
+.fa-pause-circle {
+    color: #4E4FEB;
+    font-size: 1.75rem;
+    margin: 0.625rem;
+}
+
+.music {
+    color: #4E4FEB;
+}
+
+.icon {
+    width: 1.75rem;
+    height: 1.75rem;
+    margin: 0.625rem;
+    fill: #4E4FEB;
+}
+
+.sunoAudio {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+#playButton {
+    cursor: pointer;
+}
