@@ -128,3 +128,12 @@ figure:hover i {
 .faq-item.active .faq-icon {
     transform: rotate(45deg);
 }
+
+.dark-mode .btn.primary {
+    background-color: var(--primary-color-dark, var(--primary-color));
+    color: var(--bg-color-dark, #ffffff);
+}
+
+.dark-mode .btn.primary:hover {
+    background-color: var(--primary-hover-color-dark, var(--primary-hover-color));
+}

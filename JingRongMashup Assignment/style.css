@@ -8,6 +8,7 @@
 
 :root {
     --primary-color: #6366f1;
+    --primary-hover-color: #0022ff;
     --text-color: #333;
     --bg-color: #fff;
     --nav-height: 70px;
@@ -18,9 +19,15 @@ body {
     color: var(--text-color);
     background-color: var(--bg-color);
     transition: background-color 0.3s, color 0.3s;
+    --card-bg-color: #efebeb;
+    --featured-card-bg-color: #ffffff;
 }
 
 body.dark-mode {
     --text-color: #f0f0f0;
     --bg-color: #333;
+    --card-bg-color: #2c2c2c;
+    --featured-card-bg-color: #3a3a3a;
+    --primary-color-dark: #6366f1;
+    --primary-hover-color-dark: #0022ff;
 }

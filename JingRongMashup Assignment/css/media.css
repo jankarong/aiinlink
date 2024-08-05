@@ -41,7 +41,7 @@
     }
 
     p {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
     figcaption {
@@ -153,7 +153,7 @@
     }
 
     h2 {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 
     h3 {
@@ -161,7 +161,7 @@
     }
 
     p {
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
 
     figcaption {
@@ -251,17 +251,12 @@
         width: 100%;
     }
 
-    .pricing-title {
-        font-size: 2rem;
-    }
 
     .pricing-card h3 {
         font-size: 1.5rem;
     }
 
-    .pricing-price {
-        font-size: 1.8rem;
-    }
+
 
     .cta {
         padding: 30px 10px;
